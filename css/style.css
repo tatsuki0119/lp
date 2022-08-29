@@ -1,7 +1,201 @@
+/* common */
+
 body {
+  /* font-family: 'BIZ UDPGothic', sans-serif; */
   text-align: center;
 }
 
-.lp img {
+img {
+  vertical-align: middle;
+}
+
+.fit img {
   width: 100vw;
+}
+
+.gap img {
+  width: 90vw;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* section */
+
+#onayami {
+  background: #272727;
+}
+
+.ba {
+  margin: 16px 0px 16px 0px;
+}
+
+#onayami p:last-child {
+  padding-bottom: 40px;
+}
+
+#stuff {
+  color: #fff;
+  padding-bottom: 40px;
+  padding-top: 28px;
+}
+
+.kozue {
+  margin: 24px 0px 0px 0px;
+}
+
+.kozue img {
+  width: 50vw;
+}
+
+.desc {
+  text-align: left;
+  text-align:justify;
+  line-height: 2;
+  width: 80vw;
+  margin: 24px auto 0 auto;
+}
+
+#salon {
+  color: #fff;
+  padding-bottom: 24px;
+  padding-top: 16px;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+span.bold-border {
+  font-weight: bold;
+  border-bottom: #fff 2px solid;
+}
+
+.background {
+  background:#B0988C;
+}
+
+#selection {
+  background: #272727;
+  padding: 32px 0px 40px 0px;
+}
+
+.gold {
+  margin: 40px 0px 40px 0px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#flow {
+  padding: 24px 0px 24px 0px;
+}
+
+.desc.step {
+  margin-top: 8px;
+}
+
+.flow.top {
+  margin: 24px 0px 0px 0px;
+}
+
+.flow {
+  margin: 64px 0px 0px 0px;
+}
+
+.small {
+  font-size: 14px;
+}
+
+.gap.eye {
+  margin: 24px 0px 56px 0px;
+}
+
+#price {
+  background: #272727;
+  color: #fff;
+  padding: 32px 0px 40px 0px;
+}
+
+#q-a {
+  padding: 32px 0px 32px 0px;
+}
+
+.q-a {
+  margin-top: 56px;
+}
+
+.q-a-icon img {
+  width: 50px;
+  display: block;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.q-a-desc {
+  text-align: left;
+  text-align:justify;
+  line-height: 2;
+  margin: 0px 40px 0px 40px;
+}
+
+.q-a-desc.q {
+  margin-bottom: 16px;
+}
+
+#access {
+  background: #272727;
+  color: #fff;
+  padding: 32px 0px 40px 0px;
+}
+
+.desc.access {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+iframe {
+  width: 95vw;
+  height: 300px;
+}
+
+.fit.f {
+  margin-top: 40px;
+}
+
+.sns {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.sns img {
+  width: 60px;
+  margin: 32px 0px 32px 0px;
+}
+
+.line {
+  margin: 0px 32px 0px 32px;
+}
+
+.downy {
+  margin-top: 64px;
+}
+
+.downy img {
+  width: 100px;
+  text-align: center;
+}
+
+footer {
+  background: silver;
+  padding: 24px;
+  margin-top: 40px;
 }
